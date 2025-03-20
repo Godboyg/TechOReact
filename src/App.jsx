@@ -36,7 +36,7 @@ function App() {
   ]
 
   return (
-    <div className="bg-[#1a1a1a] h-[100%] w-full text-yellow-100 text-[1vw] max-sm:text-2xl max-sm:w-[100%]">
+    <div className="bg-[#1a1a1a] h-[100%] w-full text-yellow-100 text-[1vw] max-sm:text-xl max-sm:w-[100%]">
       <div className='flex items-center justify-between py-[1.5vw] px-[4vw] max-sm:py-[3vw] max-sm:pt-[5vw]'>
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-0.5">
@@ -59,7 +59,7 @@ function App() {
         <div className="h-[110vh] w-[33vw] max-sm:hidden">
           <img src="https://images.pexels.com/photos/31174778/pexels-photo-31174778/free-photo-of-elegant-woman-in-traditional-asian-attire.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className='h-full w-full object-cover'/>
         </div>
-        <div className="py-[4vw] px-[3vw] w-[34vw] max-sm:w-full max-sm:text-2xl">
+        <div className="py-[4vw] px-[3vw] w-[34vw] max-sm:w-full max-sm:text-xl">
           <div className="">
             <h1 className='text-yellow-200 max-sm:text-[#7F7269]'>Sarhad</h1>
             <div className="flex justify-between">
@@ -76,11 +76,11 @@ function App() {
               <p className='mt-10'><RiInformationLine/></p>
             </div>
             <div className="mt-10">
-              <div className="flex justify-between">
+              <div className="flex justify-between max-sm:text-xl">
                 <p>Size:</p>
                 <p>Size guide</p>
               </div>
-              <div className="flex gap-3 mt-4 bg-[#1a1311]">
+              <div className="flex gap-3 mt-4 bg-[#1a1311] max-sm:text-xl">
               {["8","10","12","14","16"].map((item , size)=>(
                 <div
                 key={size}
@@ -96,14 +96,14 @@ function App() {
                 <p className='text-[0.8vw] max-sm:text-[4vw] max-sm:text-[#7F7269]'>Ships within:</p>
                 <p className='max-sm:text-[4vw]'>5-6 weeks</p>
               </div>
-              <div className="h-[7vh] w-full bg-yellow-50 text-yellow-900 mt-3">
+              <div className="h-[7vh] w-full bg-yellow-50 text-yellow-900 mt-3 max-sm:text-xl">
                 <button className='h-full w-full'>Add to cart</button>
               </div>
-              <div className="h-[7vh] w-full border border-white mt-3">
+              <div className="h-[7vh] w-full border border-white mt-3 max-sm:text-xl">
                 <button className='h-full w-full'>Customize Now</button>
               </div>
               <div className="flex justify-between mt-5 max-sm:flex max-sm:items-center max-sm:justify-between">
-                <div className="flex gap-1.5 items-center justify-center max-sm:flex max-sm:items-center">
+                <div className="flex gap-1.5 items-center justify-center max-sm:flex max-sm:text-xl max-sm:items-center">
                   <RiWhatsappLine size={17} className='max-sm:text-[#7F7269]'/>
                   <p>Need help?</p>
                   <p className=''>Contact us</p>
@@ -117,7 +117,7 @@ function App() {
       <div className="h-[122vh] max-sm:h-[140vh] w-full bg-[#EFE7DA] text-black">
         <div className="w-full h-[20vh] flex flex-col items-center justify-center">
           <p className='text-[#8B5E3C] tracking-tighter mt-[2vw]'>Behind the scenes</p>
-          <h1 className="text-[#6E4325] text-2xl mt-3 tracking-[0.4vw] font-['EB_Garamond']">BEHIND THE REGAL VEIL</h1>
+          <h1 className="text-[#6E4325] text-xl mt-3 tracking-[0.4vw] font-['EB_Garamond']">BEHIND THE REGAL VEIL</h1>
         </div>
         <p class="text-center text-[#C69064]"> ✤ ✦ ✧ ✦ ✤</p>
         <div className="mt-12 flex justify-between max-sm:flex max-sm:flex-wrap max-sm:justify-around">
@@ -137,7 +137,7 @@ function App() {
           </div>
         </div>
         <div className="text-center mt-30 ">
-          <p className='max-sm:text-xl'>Standing tall as the custodians of “zardozi”, Sarhad features archival couture,<br/> handcrafted to perfection. From hundred year old restored “jamavars” to <br/> grandmother’s “suchaa taar” weave.</p>
+          <p className='max-sm:text-[3vw]'>Standing tall as the custodians of “zardozi”, Sarhad features archival couture,<br/> handcrafted to perfection. From hundred year old restored “jamavars” to <br/> grandmother’s “suchaa taar” weave.</p>
         </div>
       </div>
       <div className="w-full h-[80vh] max-sm:h-[130vh] max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center bg-black flex items-center justify-around">
@@ -146,19 +146,19 @@ function App() {
             <p className="text-xl font-semibold tracking-wide">200+</p>
             <p className="text-lg tracking-wider">HOURS</p>
           </div>
-          <p className='mt-15 tracking-[0.5vw]'>200+ HOURS OF <br/> CRAFTSMANSHIP</p>
+          <p className='mt-10 tracking-[0.5vw]'>200+ HOURS OF <br/> CRAFTSMANSHIP</p>
         </div>
         <div className="max-sm:mt-25">
-          <div className="ml-20 p-[1vw] max-sm:w-[20vw] max-sm:ml-17 max-sm:h-[13vh] max-sm:p-[3vw] flex flex-col overflow-hidden items-center justify-center text-center w-[6vw] border-[#3d2b1f] rounded-full shadow-[1px_1px_1px_rgb(255,255,255)] border h-[15vh] text-[#B88746] font-['cinzel']">
+          <div className="ml-20 p-[1vw] max-sm:w-[20vw] max-sm:ml-14 max-sm:h-[13vh] max-sm:p-[3vw] flex flex-col overflow-hidden items-center justify-center text-center w-[6vw] border-[#3d2b1f] rounded-full shadow-[1px_1px_1px_rgb(255,255,255)] border h-[15vh] text-[#B88746] font-['cinzel']">
             <img className='h-full w-full object-cover rounded-full' src={img2} alt="" />
           </div>
-          <p className='mt-15 tracking-[0.5vw] text-center'>EXQUISITE ZARDOSI <br/> EMBROIDERY</p>
+          <p className='mt-10 tracking-[0.5vw] text-center'>EXQUISITE ZARDOSI <br/> EMBROIDERY</p>
         </div>
         <div className="max-sm:mt-25">
           <div className="ml-5 max-sm:w-[20vw] max-sm:h-[13vh] max-sm:p-[3vw]  flex items-center p-[1vw] overflow-hidden justify-center text-center w-[6vw] border-[#3d2b1f] rounded-full shadow-[1px_1px_3px_rgb(255,255,255)] border h-[15vh] text-[#B88746] font-['cinzel']">
             <img className='h-full rounded-full w-full object-cover' src={img} alt="" />
           </div>
-          <p className='mt-15 tracking-[0.5vw] text-center'>HERITAGE <br/> HEIRLOOMS</p>
+          <p className='mt-10 tracking-[0.5vw] text-center'>HERITAGE <br/> HEIRLOOMS</p>
         </div>
       </div>
       <div className="h-[100vh] max-sm:h-[50vh] flex">
@@ -172,7 +172,7 @@ function App() {
           <img className='h-full w-full object-cover' src="https://images.pexels.com/photos/30320422/pexels-photo-30320422/free-photo-of-camel-caravan-crossing-sahara-desert-dunes.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
         </div>
       </div>
-      <div className="h-[125vh] max-sm:h-[90vh]">
+      <div className="h-[125vh] max-sm:h-[100vh]">
         <div className="w-full h-[20vh] mt-5 flex flex-col items-center justify-center">
           <p className='text-[#6E4325]  tracking-tighter mt-[2vw] max-sm:text-[3vw]'>Our recommendations</p>
           <h1 className="text-2xl mt-3 tracking-[0.4vw] font-['EB_Garamond']">EXQUISITE PICKS</h1>
