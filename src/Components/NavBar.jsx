@@ -1,10 +1,13 @@
 import React from 'react'
 import { RiArrowDownSLine } from '@remixicon/react'
 import "../App.css"
+import adcom from "./AdComponent"
 import img from "/img.webp"
 
 function NavBar() {
   return (
+    <>
+    <adcom />
     <div className="flex text-yellow-100 text-[1vw] gap-[5vw] max-sm:hidden">
         <div className="flex gap-10">
             <div className="flex items-center gap-0.5">
@@ -36,6 +39,7 @@ function NavBar() {
             </div>
         </div>
     </div>
+    </>
   )
 }
 

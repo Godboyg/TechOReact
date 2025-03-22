@@ -52,6 +52,7 @@ function App() {
   ]
 
   return (
+    <>
     <div className="bg-[#1a1a1a] h-[100%] w-full text-yellow-100 text-[1vw] max-sm:text-xl max-sm:w-[100%]">
       <div className='flex items-center justify-between py-[1.5vw] px-[4vw] max-sm:py-[3vw] max-sm:pt-[5vw]'>
         <div className="flex items-center gap-4">
@@ -276,6 +277,7 @@ function App() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
