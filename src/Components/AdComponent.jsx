@@ -14,10 +14,14 @@ const AdComponent = () => {
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}
-        data-ad-client="ca-pub-2915175777820694"  // Replace with your AdSense Publisher ID
-        data-ad-slot="8697667533"  // Replace with your Ad Slot ID
+        data-ad-client="ca-pub-2915175777820694"  // Your AdSense Publisher ID
+        data-ad-slot="8697667533"  // Your Ad Slot ID
         data-ad-format="auto"
+        data-full-width-responsive="true"
       ></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
     </div>
   );
 };
