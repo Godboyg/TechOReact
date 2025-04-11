@@ -13,6 +13,7 @@ import design7 from "/design10.png"
 import design8 from "/design11.png"
 import design9 from "/design12.png"
 import "./App.css"
+import AdCom from './Components/AdComponent'
 import { Link } from "react-router-dom"
 import { RiArrowDownSLine , RiFacebookLine , RiTwitterLine , RiYoutubeLine , RiInstagramLine , RiShareFill , RiWhatsappLine , RiInformationLine , RiHeartLine , RiSearchLine } from '@remixicon/react'
 
@@ -53,6 +54,7 @@ function App() {
 
   return (
     <>
+      <AdCom />
     <div className="bg-[#1a1a1a] h-[100%] w-full text-yellow-100 text-[1vw] max-sm:text-xl max-sm:w-[100%]">
       <div className='flex items-center justify-between py-[1.5vw] px-[4vw] max-sm:py-[3vw] max-sm:pt-[5vw]'>
         <div className="flex items-center gap-4">
@@ -69,6 +71,7 @@ function App() {
           <span>🛒</span>
         </div>
       </div>
+      <AdCom />
       <div className="flex gap-0.5 max-sm:block">
         <div className="h-[110vh] w-[33vw] max-sm:w-full max-sm:h-[50vh] max-sm:mt-5 overflow-hidden">
           <img src={design1} alt="" className='h-full w-full object-cover'/>
@@ -131,6 +134,7 @@ function App() {
           </div>
         </div>
       </div>
+      <AdCom />
       <div className="h-[122vh] max-sm:h-[140vh] w-full bg-[#EFE7DA] text-black">
         <div className="w-full h-[20vh] flex flex-col items-center justify-center">
           <p className='text-[#8B5E3C] tracking-tighter mt-[2vw]'>Behind the scenes</p>
@@ -178,6 +182,7 @@ function App() {
           <p className='mt-10 tracking-[0.5vw] text-center'>HERITAGE <br/> HEIRLOOMS</p>
         </div>
       </div>
+      <AdCom />
       <div className="h-[100vh] max-sm:h-[50vh] flex">
         <div className="h-full w-[35vw] max-sm:h-[50vh]">
           <img className='h-full w-full object-cover' src="https://images.pexels.com/photos/31149099/pexels-photo-31149099/free-photo-of-dynamic-sand-dance-on-doha-s-desert-dunes.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
@@ -218,6 +223,7 @@ function App() {
           </button>
         </div>
       </div>
+      <AdCom />
       <div className="max-sm:flex-col max-sm:h-[120vh] max-sm:items-center max-sm:justify-center h-[70vh] w-full bg-[#3A2C2C] flex items-center justify-around">
         <div className="h-[40vh] max-sm:h-[75vh] max-sm:mt-20 max-sm:w-[85vw] max-sm:text-[4vw]">
           <h1 className=''>STAY CONNECTED</h1>
