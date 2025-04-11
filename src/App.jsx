@@ -71,6 +71,9 @@ function App() {
           <span>🛒</span>
         </div>
       </div>
+      <a href="https://www.profitableratecpm.com/mveq4kmp?key=f741482cb9b858483ce9530c7901b337" target="_blank">
+  Click here to continue
+</a>
       <AdCom />
       <div className="flex gap-0.5 max-sm:block">
         <div className="h-[110vh] w-[33vw] max-sm:w-full max-sm:h-[50vh] max-sm:mt-5 overflow-hidden">
@@ -135,6 +138,12 @@ function App() {
         </div>
       </div>
       <AdCom />
+      <a href="https://www.profitableratecpm.com/mveq4kmp?key=f741482cb9b858483ce9530c7901b337" target="_blank">
+  Click here to continue
+</a>
+  <a href="https://www.profitableratecpm.com/abus3vbg5?key=5dfc65d74936064585f84ca9ce0478d6" target="_blank">
+    click ad
+  </a>
       <div className="h-[122vh] max-sm:h-[140vh] w-full bg-[#EFE7DA] text-black">
         <div className="w-full h-[20vh] flex flex-col items-center justify-center">
           <p className='text-[#8B5E3C] tracking-tighter mt-[2vw]'>Behind the scenes</p>
@@ -224,6 +233,12 @@ function App() {
         </div>
       </div>
       <AdCom />
+      <a href="https://www.profitableratecpm.com/mveq4kmp?key=f741482cb9b858483ce9530c7901b337" target="_blank">
+  Click here to continue
+</a>
+  <a href="https://www.profitableratecpm.com/abus3vbg5?key=5dfc65d74936064585f84ca9ce0478d6" target="_blank">
+    click ad
+  </a>
       <div className="max-sm:flex-col max-sm:h-[120vh] max-sm:items-center max-sm:justify-center h-[70vh] w-full bg-[#3A2C2C] flex items-center justify-around">
         <div className="h-[40vh] max-sm:h-[75vh] max-sm:mt-20 max-sm:w-[85vw] max-sm:text-[4vw]">
           <h1 className=''>STAY CONNECTED</h1>
