@@ -1,29 +1,19 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 const AdComponent = () => {
   useEffect(() => {
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (e) {
-      console.error("AdSense error:", e);
-    }
+    const script = document.createElement('script');
+    script.src = '//pl26348450.profitableratecpm.com/b7/d3/63/b7d363643e155d53c7b6ab8e2e509bf7.js';
+    script.type = 'text/javascript';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
   }, []);
 
-  return (
-    <div>
-      <ins
-        className="adsbygoogle"
-        style={{ display: "block" }}
-        data-ad-client="ca-pub-2915175777820694"  // Your AdSense Publisher ID
-        data-ad-slot="8697667533"  // Your Ad Slot ID
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-    </div>
-  );
+  return null;
 };
 
 export default AdComponent;
